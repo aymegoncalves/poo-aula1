@@ -1,0 +1,26 @@
+compilacao:
+javac [nome do arquivo.java]
+
+rodar:
+java [nome do arquivo]
+
+criar repositorio:
+- mkdir [nome]
+
+javac -d build [nome do arquivo.java] :constroi o class no repositorio build
+java -cp build / [nome do arquivo] :"class pass", passa o nome do arquivo que sera rodado
+
+entrada de dados:
+Scanner scanner = new Scanner(System.in);
+System.out.print("Digite um número inteiro: ");
+int numero = scanner.nextInt();
+
+saida de erros:
+System.err.println("Erro: divisão por zero");
+
+promocao de operadores:
+byte -> short -> int -> long -> float -> double
+
+- comparação entre numeros de ponto flutuante não sao permitidas
+
+estruturas de desvio: break, continue,
